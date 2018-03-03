@@ -11,7 +11,9 @@ public class Main {
 	
 		System.out.println(message);
 		
+		int key = CaeserUtil.readKey();
 		
+		System.out.println(key);
 	}
 
 }
